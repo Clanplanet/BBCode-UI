@@ -923,12 +923,6 @@ function main()
     if (!stringContains(document.location.href, '/personal/'))
     {
         setTimeout(function(){
-            try
-            {
-                sound = new Audio('http://dl.code-infection.de/new_message.ogg');
-            }
-            catch (e)
-            {}
             getInbox();
             interval = setInterval(getInbox, 1000 * 60 * .5);
         }, 0);
