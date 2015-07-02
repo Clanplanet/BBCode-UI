@@ -3,7 +3,9 @@
 // @namespace      Code Infection
 // @description    BBCode-Oberfläche für das Clanplanet-Forum
 // @include        http://clanplanet.de*
+// @include        https://clanplanet.de*
 // @include        http://www.clanplanet.de*
+// @include        https://www.clanplanet.de*
 // ==/UserScript==
 
 
