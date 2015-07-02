@@ -914,7 +914,7 @@ function removeElementsOfType(tag)
 
 function main()
 {
-    if (!document.location.href.match(/^http:\/\/(www\.)?clanplanet\.de/i))
+    if (!document.location.href.match(/^https?:\/\/(www\.)?clanplanet\.de/i))
     {
         return false;
     }
