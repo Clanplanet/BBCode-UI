@@ -528,6 +528,7 @@ function errorMessage(headline, text)
                        + navigator.userAgent
                        + '<br />Script-Version: '
                        + VERSION;
+                       + '<div style="font-weight:bold">Diese Meldung wurde vom BBCode-Addon generiert, nicht von Clanplanet selbst!</div>'
     document.body.appendChild(excepBox);
 }
 function openPopupWindow(url, width, height, scrollbars)
@@ -972,7 +973,7 @@ function main()
         }
         if (gbookForm === null)
         {
-            errorMessage('[main/gbook]', 'Das Formular das Gästebuchs konnte nicht gefunden werden.');
+            errorMessage('[main/gbook]', 'Das Formular des Gästebuchs konnte nicht gefunden werden.');
             return false;
         }
         
